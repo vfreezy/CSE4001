@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/cse4001/os161/tools/bin/mips-harvard-os161-ld "$@"
