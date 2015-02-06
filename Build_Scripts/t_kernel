@@ -1,0 +1,5 @@
+#!/bin/bash
+# Tests kernel
+
+cd ~/os161/root
+sys161 kernel

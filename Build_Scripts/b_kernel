@@ -1,0 +1,9 @@
+#!/bin/bash
+# Builds Kernel
+
+cd ~/os161/src/kern/conf
+./config DUMBVM
+cd ../compile/DUMBVM
+bmake depend
+bmake
+bmake install

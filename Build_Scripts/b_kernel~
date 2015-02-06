@@ -1,0 +1,9 @@
+#!/bin/bash
+# MY first script
+
+cd ~/os161/src/kern/conf
+./config DUMBVM
+cd ../compile/DUMBVM
+bmake depend
+bmake
+bmake install
