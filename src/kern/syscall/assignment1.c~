@@ -9,5 +9,5 @@ int sys_hello(void)
 
 int sys_printc(const char X)
 {
-	return kprintf(X, ...);
+	return kprintf("%c",X);
 }

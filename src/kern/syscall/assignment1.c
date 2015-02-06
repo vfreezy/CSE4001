@@ -1,6 +1,8 @@
 #include <types.h>
 #include <lib.h>
 #include <syscall.h>
+#include <thread.h>
+
 
 int sys_hello(void)
 {
@@ -10,4 +12,11 @@ int sys_hello(void)
 int sys_printc(const char X)
 {
 	return kprintf("%c",X);
+}
+
+int sys__exit(int _exitCode)
+{
+	_exitCode = 0; //Implementation pending
+	thread_exit();
+	return 0;
 }

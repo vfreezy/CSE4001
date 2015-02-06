@@ -1,0 +1,7 @@
+#!/bin/bash
+# Builds user-level
+
+cd ~/os161/src
+bmake depend
+bmake
+bmake install

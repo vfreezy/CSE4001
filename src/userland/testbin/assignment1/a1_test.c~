@@ -1,0 +1,14 @@
+#include <unistd.h>
+
+int main()
+{
+	char DV[] = "THIS IS PRINTED CHAR BY CHAR WITH PRINTC(CHAR)\n";
+	
+	hello();
+
+	for (int x = 0; x < DV.length(); x++)
+	{
+		printc(DV[x]);
+	}
+	return 0;
+}

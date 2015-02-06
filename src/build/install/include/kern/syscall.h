@@ -197,6 +197,10 @@
 #define SYS_reboot       119
 //#define SYS___sysctl   120
 
+//				-- Assignment 1 --
+#define SYS_hello	 121
+#define SYS_printc	 122
+
 /*CALLEND*/
 
 

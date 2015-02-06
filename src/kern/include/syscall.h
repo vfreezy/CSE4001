@@ -62,5 +62,6 @@ int sys___time(userptr_t user_seconds, userptr_t user_nanoseconds);
 //ASSIGNMENT 1 PROTOTYPES
 int sys_hello(void);
 int sys_printc(char X);
+int sys__exit(int _exitCode);
 
 #endif /* _SYSCALL_H_ */
