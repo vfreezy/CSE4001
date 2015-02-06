@@ -1,0 +1,5 @@
+# OBJECT FILES
+*.o
+
+# BACKUP FILES
+*.~
